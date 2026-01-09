@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    height: 92px;
+    width: 100%; 
+    max-width: 1600px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between; 
+}
+
+
+.logo-box, .logo-box img {
+    height: 60px;
+    width: 139px;
+}
+
+
+.navigation {
+    height: 24px;   
+}
+
+.navigation ul {
+    display: flex;
+    gap: 32px; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation li {
+    display: flex;
+    align-items: center;
+    font-size: 16px; 
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+
+.accessbutton {
+    height: 44px;
+    width: 164px;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accessbutton button {
+    height: 100%;  
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px; 
+    cursor: pointer;
+    line-height: 1;
+}
+
+
+.navigation ul li {
+    cursor: pointer;
+    
+}
+
+.navigation ul li:hover {
+    color: #1e3c72;
+    background-color: hsla(220, 53%, 45%, 0.881);
+    box-shadow: 5px 10px 30px rgba(231, 196, 0, 0.998);
+    border-radius: 3px;
+}
+
+.accessbutton button:hover {
+     cursor: pointer;
+    background-color: hsla(221, 66%, 36%, 0.881);
+    box-shadow: 5px 10px 30px rgba(231, 196, 0, 0.998);
+}
