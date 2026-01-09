@@ -249,7 +249,7 @@ body {
     max-width: 1360px;
     margin: 0 auto;
     padding: 40px 0;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px;  brain section e add ase*/
 }
 
 /* basic card structure  */
@@ -302,4 +302,80 @@ body {
     font-size: 16px;
     color: #64748B;
     line-height: 1.5;
+}
+
+
+
+/*  Brain Section  */
+
+
+.Brain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 60px auto;
+    padding: 40px 80px;
+    gap: 50px;
+    background: #ffffff;
+    border-radius: 24px;
+}
+
+.brain-img img {
+    width: 660px;
+    height: 660px;
+}
+
+.brain-text {
+    max-width: 650px;
+}
+
+.solution-tag {
+    color: #22C55E;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.brain-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0F172A;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.brain-text p {
+    font-size: 18px;
+    color: #64748B;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+}
+
+.check-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1E293B;
+}
+
+.check-icon {
+    width: 22px;
+    height: 22px;
+    background: #22C55E;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
