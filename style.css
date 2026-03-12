@@ -49,6 +49,12 @@ body {
     font-family: sans-serif;
 }
 
+.nav-btn{
+        padding: 10px;
+        border: 2px solid rgba(104, 99, 102, 0.916);
+        border-radius: 5px;
+    }
+
 
 .accessbutton {
     height: 44px;
@@ -79,15 +85,16 @@ body {
 
 .navigation ul li:hover {
     color: #1e3c72;
-    background-color: hsla(220, 53%, 45%, 0.881);
+    background-color: hsla(220, 67%, 49%, 0.881);
     box-shadow: 5px 10px 30px rgba(231, 196, 0, 0.998);
     border-radius: 3px;
 }
 
 .accessbutton button:hover {
      cursor: pointer;
-    background-color: hsla(221, 66%, 36%, 0.881);
+    background-color: hsla(221, 67%, 48%, 0.881);
     box-shadow: 5px 10px 30px rgba(231, 196, 0, 0.998);
+    border-radius: 5px;
 }
 
 
